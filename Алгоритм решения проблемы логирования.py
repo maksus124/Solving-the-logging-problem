@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[21]:
-
-
 with open('C:/Project/example.txt', 'r', encoding = 'utf-8' ) as example:
     a = example.readlines()
 if len(a) >= 200:
@@ -16,9 +10,6 @@ else:
     slice1 = a
 with open('C:/Project/logs.txt', 'w', encoding = 'utf-8' ) as logs:
     logs.writelines(slice1)
-
-
-# In[16]:
 
 
 
